@@ -1,4 +1,5 @@
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from "firebase/app";
+
 import {
   getAuth,
   signInWithRedirect,
@@ -9,6 +10,7 @@ import {
   signOut,
   onAuthStateChanged,
 } from 'firebase/auth';
+
 import {
   getFirestore,
   doc,
@@ -21,12 +23,12 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-  authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-  projectId: 'crwn-clothing-db-98d4d',
-  storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-  messagingSenderId: '626766232035',
-  appId: '1:626766232035:web:506621582dab103a4d08d6',
+   apiKey: "AIzaSyC-Cf_fVv_g88k6KmkkChkz_Vm9doJfZV0",
+  authDomain: "e-com-clone-90244.firebaseapp.com",
+  projectId: "e-com-clone-90244",
+  storageBucket: "e-com-clone-90244.firebasestorage.app",
+  messagingSenderId: "59221001241",
+  appId: "1:59221001241:web:ea9cf5df7b0b668ee85688"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
